@@ -21,7 +21,8 @@
 </head>
 
 @section('body')
-<body class="active-dark-mode">
+{{-- <body class="active-dark-mode"> --}}
+<body class="">
     @show
     <div class="main-page">
         <div id="my_switcher" class="my_switcher">
@@ -79,6 +80,4 @@
 
 </body>
 
-
-<!-- Mirrored from rainbowit.net/html/trydo/10-studio-agency.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Dec 2022 04:13:00 GMT -->
 </html>
