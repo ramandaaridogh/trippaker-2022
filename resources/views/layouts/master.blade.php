@@ -42,7 +42,7 @@
 
         @include('layouts.header')
 
-        @if (Request::segment(1) != 'home' || Request::segment(1) != '')
+        @if (Request::segment(1) != 'home' && Request::segment(1) != '')
             @include('frontend.components.breadcrumb')
         @endif
 

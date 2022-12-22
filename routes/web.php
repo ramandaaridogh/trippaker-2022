@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\URL;
 use App\Http\Controllers\Front\HomeController;
 use App\Http\Controllers\Front\AboutController;
 use App\Http\Controllers\Front\HistoryController;
+use App\Http\Controllers\Front\ServiceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,4 +28,5 @@ Route::get('/index', function () {
 
 
 Route::get('/about', [AboutController::class, 'index'])->name('about.index');
+Route::get('/service', [ServiceController::class, 'index'])->name('service.index');
 Route::get('/history', [HistoryController::class, 'index'])->name('history.index');

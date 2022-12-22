@@ -16,7 +16,7 @@
                             <a href="{{ url('/home') }}">Home</a>
                         </li>
                         <li>
-                            <a href="#">Service</a>
+                            <a href="{{ url('/service') }}">Service</a>
                         </li>
                         <li>
                             <a href="{{ route('about.index') }}">About</a>
